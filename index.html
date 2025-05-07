@@ -133,9 +133,14 @@
 	}
 
 	.display-tc {
-		position: relative;
-		z-index: 2;
-		padding-top: 480px;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	position: relative;
+	z-index: 2;
+	text-align: center;
 	}
 
 	.display-tc h1 {
@@ -158,6 +163,7 @@
 		}
 
 		.display-tc {
+			display: block;
 			padding-top: 500px; /* Ajusta para centrar mejor en móvil */
 			text-align: center;
 		}

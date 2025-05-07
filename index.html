@@ -135,13 +135,14 @@
 	.display-tc {
 		display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between; /* Distribuye entre top y bottom */
 	align-items: center;
 	height: 100vh;
 	position: relative;
 	z-index: 2;
 	text-align: center;
-	}
+	padding: 80px 20px 40px; /* Ajusta según lo alto que quieras el título y contador */
+}
 
 	.display-tc h1 {
 		font-size: 74px;
